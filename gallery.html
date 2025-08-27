@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Eleganza Hall | Event Photos & Videos</title>
+    <meta name="description" content="Browse our stunning gallery of weddings, conferences, parties, and special events at Eleganza Hall. See why we're the premier choice for your celebration.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Eleganza Hall</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="booking.html" class="nav-link">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <div class="page-header-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Our Gallery</h1>
+                <p>Witness the magic of unforgettable celebrations</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Gallery</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="conference">Conferences</button>
+                <button class="filter-btn" data-filter="party">Parties</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Wedding Images -->
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Elegant Wedding Reception">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Romantic Wedding</h4>
+                            <p>Sarah & Michael's Dream Wedding</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding Ceremony Setup">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Garden Wedding</h4>
+                            <p>Outdoor Ceremony Setup</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding Table Setting">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Luxury Wedding</h4>
+                            <p>Gold & White Theme</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conference Images -->
+                <div class="gallery-item" data-category="conference">
+                    <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Conference Setup">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Tech Conference</h4>
+                            <p>Professional Setup for 300 Attendees</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="conference">
+                    <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Business Meeting">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Corporate Summit</h4>
+                            <p>Executive Boardroom Style</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Party Images -->
+                <div class="gallery-item" data-category="party">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Birthday Party">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>50th Birthday</h4>
+                            <p>Elegant Milestone Celebration</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="party">
+                    <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Graduation Party">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Graduation Party</h4>
+                            <p>Celebrating Achievements</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corporate Images -->
+                <div class="gallery-item" data-category="corporate">
+                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Corporate Gala">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Annual Gala</h4>
+                            <p>Company Awards Night</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="corporate">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Product Launch">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Product Launch</h4>
+                            <p>New Brand Reveal Event</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Wedding Images -->
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding Dance Floor">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Reception Dance</h4>
+                            <p>First Dance Magic</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="party">
+                    <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Anniversary Party">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Anniversary Celebration</h4>
+                            <p>25 Years of Love</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="conference">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Seminar Setup">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Educational Seminar</h4>
+                            <p>Interactive Learning Environment</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wedding">
+                    <img src="https://images.unsplash.com/photo-1549451023-0b-93fb-c82b-1a39b9c99dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding Cake">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Wedding Cake Cutting</h4>
+                            <p>Sweet Moments</p>
+                            <div class="overlay-icons">
+                                <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1549451023-0b-93fb-c82b-1a39b9c99dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+                                    <i class="fas fa-search-plus"></i>
+                                </button>
+                                <a href="#" class="gallery-share">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="btn btn-outline" id="loadMoreBtn">Load More Images</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="video-gallery bg-accent">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Event Videos</h2>
+                <p class="section-subtitle">Experience the atmosphere of our celebrations</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1519167758481-83f29b8ae434?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding Video">
+                        <div class="video-overlay">
+                            <div class="play-button" data-video="wedding-highlight">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Wedding Highlight Reel</h4>
+                        <p>Sarah & Michael's Beautiful Day</p>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Conference Video">
+                        <div class="video-overlay">
+                            <div class="play-button" data-video="conference-highlights">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Conference Highlights</h4>
+                        <p>Tech Summit 2023</p>
+                    </div>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Party Video">
+                        <div class="video-overlay">
+                            <div class="play-button" data-video="party-celebration">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Birthday Celebration</h4>
+                        <p>Milestone 50th Birthday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Create Your Own Magical Moments?</h2>
+                <p>Let us help you plan an unforgettable event that will be remembered for years to come</p>
+                <div class="cta-buttons">
+                    <a href="booking.html" class="btn btn-primary">Book Your Event</a>
+                    <a href="contact.html" class="btn btn-outline">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Eleganza Hall</h3>
+                        <p>Where dreams meet reality</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#weddings">Weddings</a></li>
+                        <li><a href="services.html#conferences">Conferences</a></li>
+                        <li><a href="services.html#parties">Parties</a></li>
+                        <li><a href="services.html#catering">Catering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, City Center</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@eleganzahall.com</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive offers and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eleganza Hall. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Gallery Styles -->
+    <style>
+        .page-header {
+            height: 60vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+            overflow: hidden;
+        }
+
+        .page-header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1519167758481-83f29b8ae434?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center/cover;
+        }
+
+        .page-header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .page-header-content {
+            text-align: center;
+            color: var(--white);
+            z-index: 2;
+            position: relative;
+        }
+
+        .page-header-content h1 {
+            font-family: var(--font-primary);
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        .page-header-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb span {
+            color: var(--white);
+            opacity: 0.7;
+        }
+
+        .gallery-filters {
+            padding: 40px 0;
+            background: var(--accent-color);
+        }
+
+        .filter-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 12px 24px;
+            border: 2px solid var(--primary-color);
+            background: transparent;
+            color: var(--primary-color);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            font-weight: 600;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .gallery-section {
+            padding: 80px 0;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .gallery-item {
+            position: relative;
+            height: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: var(--shadow-light);
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                transparent, 
+                rgba(0, 0, 0, 0.3), 
+                rgba(0, 0, 0, 0.8)
+            );
+            display: flex;
+            align-items: flex-end;
+            opacity: 0;
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .overlay-content {
+            padding: 25px;
+            color: var(--white);
+            width: 100%;
+        }
+
+        .overlay-content h4 {
+            font-family: var(--font-primary);
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+        }
+
+        .overlay-content p {
+            color: var(--primary-color);
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .overlay-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .gallery-zoom,
+        .gallery-share {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-zoom:hover,
+        .gallery-share:hover {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            transform: scale(1.1);
+        }
+
+        .load-more-section {
+            text-align: center;
+        }
+
+        .video-gallery {
+            padding: 80px 0;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .video-item {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+            transition: var(--transition-smooth);
+        }
+
+        .video-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .video-thumbnail {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .video-item:hover .video-thumbnail img {
+            transform: scale(1.1);
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+        }
+
+        .video-item:hover .video-overlay {
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .play-button {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .play-button:hover {
+            transform: scale(1.1);
+            background: var(--primary-dark);
+        }
+
+        .video-info {
+            padding: 25px;
+        }
+
+        .video-info h4 {
+            font-family: var(--font-primary);
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+        }
+
+        .video-info p {
+            color: var(--text-light);
+        }
+
+        /* Filter Animation */
+        .gallery-item.hide {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-item.show {
+            opacity: 1;
+            transform: scale(1);
+            transition: var(--transition-smooth);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .page-header-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .filter-buttons {
+                gap: 10px;
+            }
+
+            .filter-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .gallery-item {
+                height: 250px;
+            }
+
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .video-thumbnail {
+                height: 200px;
+            }
+
+            .play-button {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+
+    <!-- Gallery JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initGalleryFilters();
+            initVideoPlayers();
+            initLoadMore();
+        });
+
+        function initGalleryFilters() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        const category = item.getAttribute('data-category');
+                        
+                        if (filter === 'all' || category === filter) {
+                            item.style.display = 'block';
+                            item.classList.remove('hide');
+                            item.classList.add('show');
+                        } else {
+                            item.classList.remove('show');
+                            item.classList.add('hide');
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        }
+
+        function initVideoPlayers() {
+            const playButtons = document.querySelectorAll('.play-button');
+            
+            playButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const videoId = this.getAttribute('data-video');
+                    // Here you would typically open a video modal or redirect to video
+                    console.log('Playing video:', videoId);
+                    
+                    // For demo purposes, show an alert
+                    showNotification('Video player would open here in a real implementation', 'info');
+                });
+            });
+        }
+
+        function initLoadMore() {
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    // In a real implementation, this would load more images via AJAX
+                    showNotification('More images would be loaded here in a real implementation', 'info');
+                });
+            }
+        }
+
+        // Enhanced gallery zoom functionality
+        document.querySelectorAll('.gallery-zoom').forEach(zoomBtn => {
+            zoomBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const imageSrc = this.getAttribute('data-src');
+                const galleryItem = this.closest('.gallery-item');
+                const title = galleryItem.querySelector('h4').textContent;
+                const description = galleryItem.querySelector('p').textContent;
+                
+                openLightbox(imageSrc, `${title} - ${description}`);
+            });
+        });
+    </script>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
